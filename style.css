@@ -1,0 +1,16 @@
+body {
+   font-family: Optima, sans-serif;
+}
+
+h1, h2 {
+    font-family: Didot, serif; 
+    font-weight: 800;
+} /*is this right*/
+
+h1 {
+    font-size: 55px;
+}
+
+h2 {
+    font-size: 35px; 
+}
