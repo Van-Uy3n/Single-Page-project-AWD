@@ -1,22 +1,13 @@
 body {
-   font-family: Optima, sans-serif;
+    font-size: 140%; 
+    line-height: 1.35;
+    font-family: 'Source Sans Pro', sans-serif;
 }
-
-h1, h2 {
-    font-family: Didot, Georgia, serif; 
-    font-weight: 800;
-} /*is this right*/
-
-h1 {
-    font-size: 55px;
+h1, h2, h3, p {
+    width: 40em;  
 }
-
-h2 {
-    font-size: 35px; 
-}
-p {
-    width: 62em; 
-}
-li {
-    width: 45em;
+h1,h2, h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900; 
+    font-style: italic; 
 }
