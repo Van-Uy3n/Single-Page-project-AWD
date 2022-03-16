@@ -1,13 +1,12 @@
 body {
     font-size: 140%; 
     line-height: 1.35;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Hind', sans-serif;
 }
 h1, h2, h3, p {
     width: 40em;  
 }
 h1,h2, h3 {
-    font-family: 'Playfair Display', serif;
-    font-weight: 900; 
-    font-style: italic; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800; 
 }
