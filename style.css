@@ -1,5 +1,5 @@
 body {
-    font-size: 140%; 
+    font-size: 140%; /*check size or redo it*/
     line-height: 1.35;
     font-family: 'Hind', sans-serif;
     font-weight: 400;
@@ -14,4 +14,12 @@ h1,h2, h3 {
 
 ul {
     width: 40em;
+}
+
+figure {
+    width: 360px;
+    background-color: #f2f2f2;
+    padding: 1em; /*first is top, 2nd is right, 3rd is bottom, 4th is left*/
+    border: .2em blue solid; /*width color style*/
+    margin: .5em 1.5em 1em .5em;  /*em is tied to font size*/
 }
