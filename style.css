@@ -3,42 +3,39 @@ body {
     line-height: 1.35;
     font-family: 'Hind', sans-serif;
     font-weight: 400;
-    background-color: #F2F2F2; /*change*/
-    color: #0E0415;
+    background-color: #10002B; 
+    color: #f3eafb;
 }
-h1, h2, h3, p {
-    width: 40em;  
-}
+
 h1,h2, h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 800; 
-    color: #661CB0; 
+    color: #E0AAFF; 
 }
-ul {
-    width: 40em;
-}
-/*style hyperlink states*/
+/*links*/
 a {
-    color: #3c0c6a;
+    color: #4c89eb;
 }
 a:visited {
-    color: #000000; 
+    color: #3a86ff; 
 }
 a:hover {
-    color: #f2f2; 
+    color: 	#608ed7; 
 }
+/*figures*/
 figure {
     width: 360px;
-    background-color: #deb3ff;
+    max-width: 100%;
+    min-width: 160; /*fix*/
+    background-color: #666666;
     padding: .75em .5em 1em .5em; /*first is top, 2nd is right, 3rd is bottom, 4th is left*/
     border: .2em #240046 solid; /*width color style*/
-    margin: .5em 1.5em 1em .5em;  /*em is tied to font size*/
+    margin: 0;  /*em is tied to font size*/
 }
-/*
 figure img {
     width: 100%;
 }
 header, main, footer{
     width: 40em;
     max-width: 90%;
-}*/
+}
