@@ -4,7 +4,7 @@ body {
     font-family: 'Hind', sans-serif;
     font-weight: 400;
     background-color: #10002B; 
-    color: #f3eafb;
+    color: #f2f2f2;
 }
 
 h1,h2, h3 {
@@ -14,22 +14,23 @@ h1,h2, h3 {
 }
 /*links*/
 a {
-    color: #4c89eb;
+    color: #c77dff;
 }
 a:visited {
-    color: #3a86ff; 
+    color: #8200e6; 
 }
 a:hover {
-    color: 	#608ed7; 
+    color: 	#e9ccff; 
 }
 /*figures*/
 figure {
     width: 360px;
     max-width: 100%;
     min-width: 160; /*fix*/
-    background-color: #666666;
+    color: #10002B;
+    background-color: #f2f2f2;
     padding: .75em .5em 1em .5em; /*first is top, 2nd is right, 3rd is bottom, 4th is left*/
-    border: .2em #240046 solid; /*width color style*/
+    border: .2em #E0AAFF solid; /*width color style*/
     margin: 0;  /*em is tied to font size*/
 }
 figure img {
