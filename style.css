@@ -2,9 +2,10 @@ body {
     font-size: 135%; /*check size or redo it*/
     line-height: 1.35;
     font-family: 'Hind', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     background-color: #10002b; 
     color: #f2f2f2;
+    margin: .5em 1em;
 }
 
 h1,h2, h3 {
@@ -30,16 +31,20 @@ figure {
     color: #10002B;
     background-color: #f2f2f2;
     padding: .75em .5em 1em .5em; /*first is top, 2nd is right, 3rd is bottom, 4th is left*/
-    border: .25em #E0AAFF solid; /*width color style*/
-    margin: 0;  /*em is tied to font size*/
+    border: .3em #a6a6a6 solid; /*width color style*/
+    margin: 0;  
 }
 figure img {
     width: 100%;
 }
-header, main, footer{
+header, main, footer {
     width: 40em;
     max-width: 90%;
 }
-.bold{
+.bold {
   font-weight: bold;  
+}
+#float_right {
+    float: right; 
+    margin: 0; 
 }
