@@ -1,5 +1,5 @@
 body {
-    font-size: 135%; /*check size or redo it*/
+    font-size: 135%;
     line-height: 1.35;
     font-family: 'Hind', sans-serif;
     font-weight: 300;
@@ -31,7 +31,7 @@ figure {
     color: #10002B;
     background-color: #f2f2f2;
     padding: .75em .5em 1em .5em; /*first is top, 2nd is right, 3rd is bottom, 4th is left*/
-    border: .3em #a6a6a6 solid; /*width color style*/
+    border: .3em #a6a6a6 solid;
     margin: 0;  
 }
 figure img {
@@ -44,10 +44,14 @@ header, main, footer {
 .bold {
   font-weight: bold;  
 }
-#float_right {
+.italic {
+    font-style: italic;
+}
+.float_right {
     float: right; 
-    margin: 0em 1em .3em;
+    margin: 0em .5em .5em 1em;
     max-width: 100%;
     min-width: 150;
 }
+
 
